@@ -4,24 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    
+    <style>
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        nav ul li a {
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        nav ul li a:hover {
+            padding: 10px 15px;
+            color: rgb(63, 63, 114);
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+    <header>
 
-    <!-- MAIN - Define o conteúdo principal do documento -->
+        <nav>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+        </nav>
     
+    </header>
+
     <main>
-        Main
-        <header>Header</header>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
 
-        <footer>
-            <address>Rua da Alegria, 187</address>
-        </footer>
-
-        <section>
-            <header>Header 2</header>
-            <footer>Footer 2</footer>
-        </section>
+        <aside></aside>
     </main>
+
     <footer></footer>
 </body>
 </html>
